@@ -1,38 +1,276 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <title>inicio</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <title>Estrasburgo turismo</title>
+  </head>
+  <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="index.html">Inicio</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="que-visitar.html">Que visitar</a>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Inicio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="que-visitar.html"
+                >Que visitar</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="flora-fauna.html">Flora y Fauna</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contactos.html">contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide-to="0"
+          class="active"
+          aria-label="Slide 1"
+        ></button>
+
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="4"
+          aria-label="Slide 5"
+        ></button>
+      </div>
+
+      <div class="carousel-inner">
+        <div class="carousel-item active vh-100" data-bs-interval="2000">
+          <img
+            src="assets/img/Panorama-cathédrale-depuis-la-rue-de-Rome-Paul-Prim.webp"
+            class="d-block w-100 h-100 object-fit-cover"
+            alt="..."
+          />
+
+          <div
+            class="carousel-caption d-flex flex-column justify-content-center h-100 top-0 text-start"
+          >
+            <div class="container">
+              <h1 class="display-5 fw-bold text-uppercase mb-3">
+                La catedral Notre-Dame de Estrasburgo
+              </h1>
+              <p class="fs-5 mb-5">
+                Déjese seducir por esta obra maestra del gótico, símbolo de
+                Estrasburgo por excelencia.
+              </p>
+              <div>
+                <a
+                  href="que-visitar.html"
+                  class="btn btn-outline-light btn-lg rounded-0 px-5 border-2 text-uppercase"
+                >
+                  Visitar
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item vh-100" data-bs-interval="5000">
+          <img
+            src="assets/img/cabecera1.webp"
+            class="d-block w-100 h-100 object-fit-cover"
+            alt="..."
+          />
+
+          <div
+            class="carousel-caption d-flex flex-column justify-content-center h-100 top-0 text-start"
+          >
+            <div class="container">
+              <h1 class="display-5 fw-bold text-uppercase mb-3">
+                Estrasburgo, la Europea
+              </h1>
+              <p class="fs-5 mb-5">
+                Situado a dos pasos del centro histórico, el barrio europeo
+                guarda muchos tesoros escondidos. Se puede simplemente dar un
+                paseo combinando naturaleza y arquitectura, o aprender sobre la
+                historia y el funcionamiento de las instituciones, ¡hay para
+                satisfacer todos los gustos y curiosidades!
+              </p>
+              <div>
+                <a
+                  href="que-visitar.html"
+                  class="btn btn-outline-light btn-lg rounded-0 px-5 border-2 text-uppercase"
+                >
+                  Visitar
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item vh-100" data-bs-interval="5000">
+          <img
+            src="assets/img/la-petite-france.jpg"
+            class="d-block w-100 h-100 object-fit-cover"
+            alt="..."
+          />
+
+          <div
+            class="carousel-caption d-flex flex-column justify-content-center h-100 top-0 text-start"
+          >
+            <div class="container">
+              <h1 class="display-5 fw-bold text-uppercase mb-3">
+                La Petite France
+              </h1>
+              <p class="fs-5 mb-5">
+                Este mítico barrio de Estrasburgo era antiguamente el de los
+                molineros, curtidores y pescadores. Las casas con entramado de
+                madera, las calles y los muelles contribuyen a su atmósfera
+                romántica e intimista.
+              </p>
+              <div>
+                <a
+                  href="que-visitar.html"
+                  class="btn btn-outline-light btn-lg rounded-0 px-5 border-2 text-uppercase"
+                >
+                  Visitar
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item vh-100" data-bs-interval="5000">
+          <img
+            src="assets/img/Tour-guide-in-Strasbourg-scaled-900x827.webp"
+            class="d-block w-100 h-100 object-fit-cover"
+            alt="..."
+          />
+
+          <div
+            class="carousel-caption d-flex flex-column justify-content-center h-100 top-0 text-start"
+          >
+            <div class="container">
+              <h1 class="display-5 fw-bold text-uppercase mb-3">
+                Estrasburgo, un destino familiar
+              </h1>
+              <p class="fs-5 mb-5">
+                Déjese tentar por una visita a Estrasburgo: gracias a su
+                entorno, las diferentes formas de visitar la ciudad y las
+                numerosas actividades, vivirá una experiencia inolvidable en
+                familia.
+              </p>
+              <div>
+                <a
+                  href="que-visitar.html"
+                  class="btn btn-outline-light btn-lg rounded-0 px-5 border-2 text-uppercase"
+                >
+                  Visitar
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+
+    <footer
+      class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+    >
+      <div class="col-md-4 d-flex align-items-center">
+        <a
+          href="/"
+          class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
+          aria-label="Bootstrap"
+        >
+          <svg class="bi" width="30" height="24" aria-hidden="true">
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+        </a>
+        <span class="mb-3 mb-md-0 text-body-secondary"
+          >© 2025 Company, Inc</span
+        >
+      </div>
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3">
+          <a class="text-body-secondary" href="#" aria-label="Instagram"
+            ><svg class="bi" width="24" height="24" aria-hidden="true">
+              <use xlink:href="#instagram"></use></svg
+          ></a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="flora-fauna.html">Flora y Fauna</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contactos.html">contacto</a>
+        <li class="ms-3">
+          <a class="text-body-secondary" href="#" aria-label="Facebook"
+            ><svg class="bi" width="24" height="24">
+              <use xlink:href="#facebook"></use></svg
+          ></a>
         </li>
       </ul>
-    </div>
-  </div>
-</nav>
+    </footer>
 
-
-
-<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"> <div class="col-md-4 d-flex align-items-center"> <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1" aria-label="Bootstrap"> <svg class="bi" width="30" height="24" aria-hidden="true"><use xlink:href="#bootstrap"></use></svg> </a> <span class="mb-3 mb-md-0 text-body-secondary">© 2025 Company, Inc</span> </div> <ul class="nav col-md-4 justify-content-end list-unstyled d-flex"> <li class="ms-3"><a class="text-body-secondary" href="#" aria-label="Instagram"><svg class="bi" width="24" height="24" aria-hidden="true"><use xlink:href="#instagram"></use></svg></a></li> <li class="ms-3"><a class="text-body-secondary" href="#" aria-label="Facebook"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li> </ul> </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
