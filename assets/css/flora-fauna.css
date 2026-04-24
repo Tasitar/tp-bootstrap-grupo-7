@@ -1,3 +1,9 @@
 .carousel-item img {
   height: 500px;
 }
+
+#separador-carrusel
+{
+  margin-top: 30px;
+}
+
