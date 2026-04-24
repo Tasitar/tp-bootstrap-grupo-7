@@ -1,0 +1,4 @@
+/*le damos estilo  a nuestro titulo con text-shadow*/
+.titulo {
+  text-shadow: 0 4px 8px rgb(255, 230, 0);
+}
