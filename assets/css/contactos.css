@@ -1,3 +1,19 @@
-.row {
-    margin-top: 6px;
+.area-mensajeria { /*propiedades que tiene toda la zona del correo electrónico junto con la caja de mansajería*/
+    border-style: ridge;
+    border-radius: 8px;
+    background-color: rgba(187, 186, 186, 0.5);
+    background-color: hsla(0, 0%, 180%, 0.2);
+    width: 600px;
+    height: 400px;    
 }
+
+.email-aviso {   /*propiedades del aviso del correo electrónico*/
+    border-style: dashed;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 700px;
+    
+}
+
+
+

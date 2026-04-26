@@ -1,174 +1,135 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="assets/css/contactos.css" />
-    <title>Contactos</title>
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Inicio</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a
-                class="nav-link active"
-                aria-current="page"
-                href="que-visitar.html"
-                >Que visitar</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="flora-fauna.html">Flora y Fauna</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contactos.html">Contactos</a>
-            </li>
-          </ul>
-        </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+  <link rel="stylesheet" href="assets/css/contactos.css" />
+  <title>Contactos</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Inicio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="que-visitar.html">Que visitar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="flora-fauna.html">Flora y Fauna</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contactos.html">Contactos</a>
+          </li>
+        </ul>
       </div>
-    </nav>
-    <main>
-      <section>
-        <div class="card text-bg-dark">
-          <div class="card-header">
-            <h1>Bienvenidos</h1>
-          </div>
+    </div>
+  </nav>
+  <main>
+    <div class="card text-bg-dark">
+      <div class="card-header">
+        <h1>Bienvenidos</h1>
+      </div>
 
-          <img
-            src="./assets/img-contactos/IMG_2082.jpg"
-            class="card-img"
-            alt="..."
-          />
+      <img src="./assets/img-contactos/strasbourg-facecard.webp" class="card-img" alt="..." />
 
-          <div class="card-img-overlay">
-            <h5 class="card-title">¡Contáctanos!</h5>
-            <p class="card-text">Podés escribirnos un mensaje</p>
+      <div class="card-img-overlay">
+        <h5 class="card-title">¡Contáctanos!</h5>
+        <p class="card-text">Podés escribirnos un mensaje</p>
 
-            <form>
-              <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label"
-                  >Correo Electrónico</label
-                >
-                <input
-                  type="email"
-                  class="form-control"
-                  id="exampleInputEmail1"
-                />
-                <div id="emailHelp" class="form-text">
+        <div class="container">
+          <div class="row">
+            <form class="area-mensajeria">
+
+              <div class="col-12 col-md-6 mb-3">
+                <label for="exampleInputEmail1" class="form-label">Correo Electrónico:</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" />
+                <div id="email-aviso" class="form-text">
                   No compartiremos tu Email con nadie.
                 </div>
               </div>
 
-              <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label"
-                  >Contraseña</label
-                >
-                <input
-                  type="password"
-                  class="form-control"
-                  id="exampleInputPassword1"
-                />
+              <div class="col-12 col-md-6 mb-3">
+                <label for="exampleInputPassword1" class="form-label">Contraseña:</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" />
               </div>
 
-              <div class="mb-3 form-check">
-                <input
-                  type="checkbox"
-                  class="form-check-input"
-                  id="exampleCheck1"
-                />
-                <label class="form-check-label" for="exampleCheck1"
-                  >Marca</label
-                >
+              <div class="col-12 mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+                <label class="form-check-label" for="exampleCheck1">Marca</label>
               </div>
 
-              <div class="form-floating mb-3">
-                <textarea
-                  class="form-control"
-                  id="floatingTextarea2"
-                  style="height: 100px"
-                ></textarea>
-                <label for="floatingTextarea2">Escriba un mensaje</label>
+              <div class="col-12 mb-3 form-floating">
+                <textarea class="form-control" id="caja-mensaje" style="height: 100px"></textarea>
+                <label for="caja-mensaje">Escriba un mensaje</label>
               </div>
 
-              <button type="submit" class="btn btn-primary">Enviar</button>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+              </div>
+
             </form>
           </div>
         </div>
-      </section>
-  <div class="col-sm-6 mb-3 mb-sm-0">
-                  <div class="card">
-                    <div class="card-body">
-                      <h5 class="card-title">Facebook</h5>
-                      <p class="card-text">Podés encontrarnos en Facebook.</p>
-                      <a href="#" class="btn btn-primary">Ir</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-6">
-                  <div class="card">
-                    <div class="card-body">
-                      <h5 class="card-title">Instagram</h5>
-                      <p class="card-text">Podés encontranos también en Instagram.</p>
-                      <a href="#" class="btn btn-primary">Ir</a>
-                    </div>
-    </main>
-    
-    <footer
-      class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
-    >
-      <div class="col-md-4 d-flex align-items-center">
-        <a
-          href="/"
-          class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
-          aria-label="Bootstrap"
-        >
-          <svg class="bi" width="30" height="24" aria-hidden="true">
-            <use xlink:href="#bootstrap"></use>
-          </svg>
-        </a>
-        <span class="mb-3 mb-md-0 text-body-secondary"
-          >© 2026 Company, Inc</span
-        >
+
+      </main>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Facebook</h5>
+                <p class="card-text">Podés encontrarnos en Facebook.</p>
+                <a href="#" class="btn btn-primary">Ir</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Instagram</h5>
+                <p class="card-text">Podés encontranos en Instagram.</p>
+                <a href="#" class="btn btn-primary">Ir</a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-        <li class="ms-3">
-          <a class="text-body-secondary" href="#" aria-label="Instagram"
-            ><svg class="bi" width="24" height="24" aria-hidden="true">
-              <use xlink:href="#instagram"></use></svg
-          ></a>
-        </li>
-        <li class="ms-3">
-          <a class="text-body-secondary" href="#" aria-label="Facebook"
-            ><svg class="bi" width="24" height="24">
-              <use xlink:href="#facebook"></use></svg
-          ></a>
-        </li>
-      </ul>
-    </footer>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1" aria-label="Bootstrap">
+        <svg class="bi" width="30" height="24" aria-hidden="true">
+          <use xlink:href="#bootstrap"></use>
+        </svg>
+      </a>
+      <span class="mb-3 mb-md-0 text-body-secondary">© 2026 Company, Inc</span>
+    </div>
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3">
+        <a class="text-body-secondary" href="#" aria-label="Instagram"><svg class="bi" width="24" height="24"
+            aria-hidden="true">
+            <use xlink:href="#instagram"></use>
+          </svg></a>
+      </li>
+      <li class="ms-3">
+        <a class="text-body-secondary" href="#" aria-label="Facebook"><svg class="bi" width="24" height="24">
+            <use xlink:href="#facebook"></use>
+          </svg></a>
+      </li>
+    </ul>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
