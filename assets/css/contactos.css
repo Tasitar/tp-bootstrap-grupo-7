@@ -3,8 +3,7 @@
     border-radius: 8px;
     background-color: rgba(187, 186, 186, 0.5);
     background-color: hsla(0, 0%, 180%, 0.2);
-    width: 600px;
-    height: 400px;    
+     
 }
 
 .email-aviso {   /*propiedades del aviso del correo electrónico*/
